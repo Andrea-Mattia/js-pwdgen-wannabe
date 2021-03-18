@@ -40,6 +40,12 @@ h1,
     background: rgba(0,0,0, .15);
 }
 
+.container button {
+    margin: 2rem 0;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
 #your-pass,
 .ugly {
     margin-top: 2rem;
