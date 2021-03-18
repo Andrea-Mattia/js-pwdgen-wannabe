@@ -1,0 +1,46 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(45deg, gold, aquamarine);
+}
+
+h1 {
+    color: dodgerblue;
+    background: rgba(0,0,0, .15);
+    margin-bottom: 4rem;
+}
+
+/* MAIN CONTENT */
+.app,
+.app > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+.app .container {
+    border: 2px solid dodgerblue;
+}
+
+.app {
+    height: 100vh;
+}
+
+.app .container {
+    width: 300px;
+    height: 300px;
+    background: rgba(0,0,0, .15);
+}
+
+#your-pass,
+.ugly {
+    margin-top: 2rem;
+}
