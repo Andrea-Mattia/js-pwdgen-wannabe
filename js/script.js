@@ -13,6 +13,6 @@ function myFunction() {
     var firstName = prompt("Enter Your First Name:");
     var lastName = prompt("Enter Your Last Name:");
     var prefColor = prompt("Enter Your Favourite Color:");
-    var pwd = firstName + lastName + prefColor + 21;
+    var pwd = firstName + lastName + prefColor + '21';
     document.getElementById('your-pass').innerHTML = pwd;
 }
